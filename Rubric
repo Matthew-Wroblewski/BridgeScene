@@ -1,0 +1,26 @@
+Assignment 10 Rubric
+Precondition Methods (24 pts) 
+(12) Public precondition method for each method: approach(), say(), passed(), and failed() 
+(12) Console Scene View prints Property Change Events from precondition methods 
+
+Command Objects (21 pts) 
+(5) Tagged “say command” and “move command” and implement Runnable 
+(3) Move command only takes Avatar and two integers as arguments in its constructor 
+(3) Say command only takes String as argument in its constructor 
+(5) Two separate parsing methods for “say” and “move” that return Runnable-typed objects. Tagged “say parser” and “move parser” 
+(5) Caller of “say parser” and “move parser” executes command using the Runnable object 
+
+Asynchronous Animations (55 pts) 
+(5) Animating methods in interpreter tagged “asynchronous Arthur”, “asynchronous Galahad”, etc. 
+(10) Each method starts and runs the animation in its own thread. Animations must be demoed to run simultaneously to receive credit for this! 
+(20) Animation uses one or more animating command classes that implement Runnable. Class(es) tagged “animating command” 
+(20) Each animation uses some animator class with an animating method. Class(es) tagged “animator” 
+
+Demo 
+Demo all of the features specified in the Assignment 10 pdf to get credit for them! 
+
+Extra Credit (20 pts) 
+(5) Clapping guard asynchronous animation, tagged “asynchronous guard”    
+      - Next assignment will build on clapping guard for more extra credit! 
+(10) Dynamically enabled buttons on interpreter for approach, say, passed, and failed
+(5) Awesome demo
